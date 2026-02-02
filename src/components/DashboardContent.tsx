@@ -109,7 +109,7 @@ const foodTypeLabels: Record<string, string> = {
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D'];
 
-const Dashboard = () => {
+const DashboardContent = () => {
   const [orders, setOrders] = useState<OrderData[]>([]);
   const [slots, setSlots] = useState<SlotData[]>([]);
   const [analytics, setAnalytics] = useState<AnalyticsData>({
@@ -1409,4 +1409,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DashboardContent;

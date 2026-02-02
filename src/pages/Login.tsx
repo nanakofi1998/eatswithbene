@@ -75,7 +75,7 @@ const Login = () => {
         }
       }
 
-      // Check if user has vendor role (you'll need to implement this)
+      // Check if user has vendor role (you'll need to implement this)  
       // For now, assume all logged in users are vendors
       
       // Save remember me preference
